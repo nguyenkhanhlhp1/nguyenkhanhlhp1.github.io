@@ -970,7 +970,8 @@ a:hover {
 }
 .timeline > li > .timeline-badge {
   color: #fff;
-  width: 48px;
+  /* width: 48px; */
+  width: 55px;
   height: 44px;
   line-height: 50px;
   font-size: 1.4em;
@@ -979,7 +980,9 @@ a:hover {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #0078ff;
+  /* background-color: #0078ff; */
+  background-color: #fff;
+  border: 3px solid #0078ff;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
